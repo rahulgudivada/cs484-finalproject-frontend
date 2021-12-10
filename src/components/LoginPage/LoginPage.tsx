@@ -6,11 +6,11 @@ import styles from './LoginPage.module.css'
 export default function loginPage() {
 
   const googleLogin = () => {
-    window.open("http://cs484-finalproject-backend.herokuapp.com/auth/google", "_self");
+    window.open("https://cs484-finalproject-backend.herokuapp.com/auth/google", "_self");
   }
 
   const githubLogin = () => {
-    window.open("http://cs484-finalproject-backend.herokuapp.com/auth/github", "_self");
+    window.open("https://cs484-finalproject-backend.herokuapp.com/auth/github", "_self");
   }
 
 
